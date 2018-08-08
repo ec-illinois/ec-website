@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+- 8
+script:
+- npm run build
+cache:
+  yarn: true
+  directories:
+  - node_modules
+# deploy:
+#   provider: s3
+#   access_key_id: AKIAJR4PMAEZ77JFJBPQ
+#   secret_access_key: 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
+#   bucket: illinoisexpo.org
+#   local-dir: build
+#   acl: public_read_write
+#   on:
+#     repo: illinoisexpo/expo-website
+#   region: us-east-2
+#   skip_cleanup: true
