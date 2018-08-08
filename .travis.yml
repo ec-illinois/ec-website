@@ -9,9 +9,9 @@ cache:
   - node_modules
 deploy:
   provider: s3
-  access_key_id: AKIAIEGZXIUUOLOHQIQA
-  secret_access_key: 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
-  bucket: illinoisexpo.org
+  access_key_id: AKIAILQAA3QAUCV5GGWQ
+  secret_access_key: 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
+  bucket: ec-illinois.org
   local-dir: build
   acl: public_read_write
   on:
